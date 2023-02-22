@@ -5,6 +5,7 @@ import java.sql.*;
 public class MyConnection1 {
     public static void main(String[] args) {
 
+
         try {
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/fsae01","root","5671341");
             Statement stmt = connection.createStatement();
