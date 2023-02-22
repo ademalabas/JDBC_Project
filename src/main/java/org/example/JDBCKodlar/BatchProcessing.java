@@ -35,6 +35,7 @@ public class BatchProcessing {
 			System.out.println(i[0]+" records inserted");
 			System.out.println(i[1]+" records inserted");
 
+
 			// con.commit();
 			con.rollback();					
 
