@@ -5,7 +5,6 @@ import java.sql.*;
 class Dbmd2{
 
 	public static void main(String args[]){
-
 		try{
 
 			// db parameters
@@ -29,6 +28,7 @@ class Dbmd2{
 			}
 
 			con.close();
+
 
 		}catch(Exception e){ System.out.println(e);}
 
