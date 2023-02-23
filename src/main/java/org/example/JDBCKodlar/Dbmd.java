@@ -4,6 +4,7 @@ import java.sql.*;
 
 class Dbmd{
 
+
 	public static void main(String args[]){
 
 		try{
@@ -12,6 +13,7 @@ class Dbmd{
 			String url       = "jdbc:mysql://localhost:3306/fsae01";
 			String user      = "root";
 			String password  = "Aa123456";			
+
 
 			// Class.forName("com.mysql.cj.jdbc.Driver");
 
